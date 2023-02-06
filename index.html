@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/Logologo1x.png" alt="logo Alura">
+    </header>
+    <main>
+        <section class="izquierda">
+            <textarea id="entrada" placeholder="Ingrese el texto aqui" ></textarea>
+            <div class="leyenda">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p>solo letras minusculas y sin acentos</p>
+           </div>
+            <div class="botones">
+                <button id="btnEncriptar">Encriptar</button>
+                <button id="btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="derecha">
+           <div class="rectangulo">
+               <img class="muneco" src="imagenes/Muneco1x.png" alt="imagen de busqueda">
+               <div class="texto">
+                    <h2>Ningun mensaje fue encontrado</h2>
+                    <p>Ingrese el texto que desee Encriptar</p>
+               </div>
+               <div class="resultado oculto"></div>
+               <button id="btnCopiar" class="oculto">Copiar</button>
+           </div>
+        </section>     
+
+    </main>
+    <footer>
+        <div class="informacion">
+        <p>Contruido por Jaqueline Mendez</p>
+          <ul>
+
+            <li><a href="https://github.com/JaquelineMendez" target="__blank"><i class="fa-brands fa-github"></i></a></li>
+
+            <li><a href="https://www.linkedin.com/in/jaquelinemendez/" target="__blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            
+            <li><a href="https://instagram.com/yaquie05?igshid=NmQ2ZmYxZjA=" target="__blank"><i class="fa-brands fa-instagram"></i></a></li>
+            
+          </ul>
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/be7634e1c6.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
