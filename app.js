@@ -52,8 +52,8 @@ function desencriptar(){
 
 function copiar(){
     let texto = contenedorResultado.innerText;
-    navigator.clipboard.writeText(texto);
-    alert("Mensaje copiado");
+    navigator.clipboard.writeText(texto).then(res=> alert("Mensaje copiado")) .catch (error=> console.error(error));
+   
 
 }
 function cambio(){
